@@ -1,5 +1,6 @@
 .promo__slider {
   position: relative;
+  overflow: hidden; /*ukrywam tutaj kolejne części slidera*/
 }
 
 .slider__arrow{
@@ -22,20 +23,25 @@
   max-width: 3em;
 }
 
-.slider_list {
-  width: 100%;
-  height: 396px;
-  overflow: hidden;
+.slider__list {
+  /*width: 7152px;*/
+  width: 600%;
+  max-height: 396px;
+  display: flex;
 }
 
 .slider__item {
-  display: block;
   width: 1192px;
-  height: 396px;
+  max-height: 396px;
   margin: 0;
   padding: 0;
-  float: left;
 }
+
+.slider_item img {
+  width: 100%;
+}
+
+
 
 /*
 slider - div okalający listę
