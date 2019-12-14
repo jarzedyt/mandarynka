@@ -28,6 +28,7 @@
   width: 600%;
   max-height: 396px;
   display: flex;
+  transition: transform 2s ease-in-out;
 }
 
 .slider__item {
@@ -41,7 +42,9 @@
   width: 100%;
 }
 
-
+.slider__list:hover {
+  transform: translate(-1192px, 0);
+}
 
 /*
 slider - div okalający listę
