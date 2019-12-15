@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf=8">
+  <title>Mandarynka</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style/main.css" type="text/css">
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+  <link rel="stylesheet" href="style/basket.css" type="text/css">
+  
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <div class="nav__logo">
+        <a href="index.html">
+          <img class="nav__logo--img" src="icons/logo_svg_orange.svg" alt="logo">
+          <span class="nav__logo--string">Mandarynka</span>
+        </a>
+      </div>
+      <div class="nav__search">
+        <input class="search__item--input" type="text" name="search" placeholder="Szukaj"> <!--dodaj tutaj lupkę-->
+        <button class="search__item--button" type="submit"><img class="icon-img" src="icons/search.svg" alt=""></button>
+      </div>
+      <div class="nav__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="basket.html">
+              <img src="icons/profile.svg" alt="profile">
+              <span>Zaloguj</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#">
+              <img src="icons/basket.svg" alt="basket">
+              <span>Koszyk</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#">
+              <img src="icons/phone.svg" alt="phone">
+              <span>784 927 392</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="categories">
+      <ul class="categories__list">
+        <li class="categories__item"><a href="#">Laptopy</a></li>
+        <li class="categories__item"><a href="#">Komputery</a></li>
+        <li class="categories__item"><a href="#">Telefony</a></li>
+        <li class="categories__item"><a href="#">AGD</a></li>
+        <li class="categories__item"><a href="#">RTV</a></li>
+        <li class="categories__item"><a href="#">Gry</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <p>mandarynka.pl / koszyk</p>
+    <h2>Twój koszyk</h2>
+    <article class="basket">
+      <div class="headers">
+        <p>Produkt</p>
+        <p>Cena</p>
+        <p>Ilość</p>
+        <p>Razem</p>
+      </div>
+      <div class="products">
+        <div class="product">
+          <p>Samsung S2</p>
+          <p>230.99 zł</p>
+          <p>
+            <button>-</button>
+            <span class="product__amount">1</span>
+            <button>+</button>
+          </p>
+          <p>230.99 zł</p>
+        </div>
+        <div class="product">
+          <p>Pegasus</p>
+          <p>99.98 zł</p>
+          <p>
+            <button>-</button>
+            <span class="product__amount">2</span>
+            <button>+</button>
+          </p>
+          <p>199.96 zł</p>
+        </div>
+      </div>
+      <div class="summary">
+        <p></p>
+        <p class="summary__money">Wartość całego koszyka: <span>430.95</span> zł</p>
+      </div>
+      <div class="summary">
+        <p class="summary__continue"><a href="index.html">Kontynuuj zakupy</a></p>
+        <p class="summary__next-button"><a href="send1.html">Dalej</a></p>
+      </div>
+      
+    </article>
+  </main>
+<footer>Footer</footer>
+
+</body>
+</html>

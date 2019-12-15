@@ -36,7 +36,8 @@ img {
 
 .categories__list, 
 .promo,
-.nav {
+.nav,
+.main {
   width: var(--main-width);
   margin-left: auto;
   margin-right: auto;

@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.nav__logo {
+.nav__logo a {
   display: flex;
   align-items: center;
 }
@@ -137,7 +137,8 @@
 @media (max-width: 1192px) {
   .categories__list, 
   .promo,
-  .nav {
+  .nav,
+  .main {
     width: 100%;
   }
 
