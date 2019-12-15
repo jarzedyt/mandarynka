@@ -152,6 +152,46 @@
   width: 60%;
 }
 
+.payment-gird {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+.payment-grid__item {
+  border: 1px solid var(--basic-dark);
+  min-height: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.payment-grid__item:target {
+  border: 2px solid var(--basic-dark);
+}
+
+.payment-grid__item--1 { background-image: url(../img/order/payu.png); }
+.payment-grid__item--2 { background-image: url(../img/order/dotpay.png); }
+.payment-grid__item--3 { background-image: url(../img/order/przelewy24.png); }
+.payment-grid__item--4 { background-image: url(../img/order/blik.png); }
+.payment-grid__item--5 { background-image: url(../img/order/googlepay.png); }
+.payment-grid__item--6 { background-image: url(../img/order/mtransfer.png); }
+.payment-grid__item--7 { background-image: url(../img/order/visa.png); }
+.payment-grid__item--8 { background-image: url(../img/order/mastercard.png); }
+.payment-grid__item--9 { background-image: url(../img/order/traditionalpayment.png); }
+
+
+
+
+
+
+
+
+
 .summary {
   margin-top: 2em;
   background-color: #fff;
@@ -182,7 +222,7 @@
   background-color: #00de0b;
   color: #fff;
   margin: 5px 0;
-  width: 20%;
+  min-width: 20%;
   text-align: center;
 }
 
