@@ -85,10 +85,19 @@
   margin-right: 1em;
 }
 
+.p1 .placeholder { background-image: url(../img/order/inpost-p.png); }
+.p2 .placeholder { background-image: url(../img/order/inpost-c.png); }
+.p3 .placeholder { background-image: url(../img/order/dhl.png); }
+.p4 .placeholder { background-image: url(../img/order/pp.png); }
+
+
 .placeholder {
-  background-color: #666;
-  width: 100px;
-  height: 2em;
+  min-width: 100px;
+  min-height: 1.9em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid var(--basic-light);
 }
 
 .post-form__item {
@@ -170,7 +179,8 @@
   padding: 0;
 }
 
-.payment-grid__item:target {
+.payment-grid__item:target,
+.post-form__item:target {
   border: 2px solid var(--basic-dark);
 }
 
