@@ -156,7 +156,6 @@
   margin-top: 2em;
   background-color: #fff;
   border-top: 1px solid var(--basic-light);
-  width: var(--main-width);
   margin-left: auto;
   margin-right: auto;
 }
@@ -183,7 +182,10 @@
   background-color: #00de0b;
   color: #fff;
   margin: 5px 0;
-  padding: 1em;
   width: 20%;
   text-align: center;
+}
+
+.summary__next-button a {
+  padding: 1em;
 }
