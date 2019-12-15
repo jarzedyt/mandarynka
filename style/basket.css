@@ -1,7 +1,13 @@
 .basket {
-  width: 60%;
+  width: 755px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 755px) {
+  .basket {
+    width: 100%;
+  }
 }
 
 .headers,
