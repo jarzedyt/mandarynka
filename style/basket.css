@@ -2,6 +2,7 @@
   width: 755px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2em;
 }
 
 @media (max-width: 755px) {
@@ -59,19 +60,5 @@
   margin: 5px 0;
   padding: 1em;
   width: 20%;
-  text-align: center;
-}
-
-
-
-
-
-
-footer {
-  margin: 3em 0 0;
-  padding: 2em;
-  background-color: var(--main-color);
-  height: 3em;
-  color: #fff;
   text-align: center;
 }
