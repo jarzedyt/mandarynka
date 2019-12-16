@@ -1,11 +1,11 @@
 .basket {
-  width: 755px;
+  width: 560px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 560px) {
   .basket {
     width: 100%;
   }

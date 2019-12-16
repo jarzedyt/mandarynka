@@ -1,3 +1,15 @@
+.progress-bar {
+  width: 711px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:711px) {
+  .progress-bar {
+    width: 100%;
+  }
+}
+
 .header {
   background-color: var(--main-color);
   min-height: 100px;
@@ -11,8 +23,8 @@
 }
 
 .header__circle {
-  width: 86px;
-  height: 86px;
+  width: 76px;
+  height: 76px;
   border-radius: 50%;
   background-color: #fff;
   display: flex;
@@ -21,7 +33,7 @@
 }
 
 .header__logo {
-  width: 80px;
+  width: 70px;
   margin: auto;
 }
 
@@ -36,15 +48,12 @@
 }
 
 .main {
-  width: 889px;
+  width: 711px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 889px) {
-  .main {
-    width: 100%;
-  }
 
   .header__circle {
     width: 64px;
@@ -57,12 +66,12 @@
 }
 
 .post-form {
-  width: 755px;
+  width: 607px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 607px) {
   .post-form {
     width: 100%;
   }
@@ -138,6 +147,18 @@
 
 .post-form__data {
   width: 30%;
+}
+
+.main--post {
+  width: 796px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 796px) {
+  .main--post {
+    width: 100%;
+  }
 }
 
 .post-form__container {

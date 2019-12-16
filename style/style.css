@@ -184,8 +184,8 @@
 }
 
 .footer-logo__circle {
-  width: 86px;
-  height: 86px;
+  width: 76px;
+  height: 76px;
   border-radius: 50%;
   background-color: #fff;
   display: flex;
@@ -194,7 +194,7 @@
 }
 
 .footer-logo__img {
-  width: 80px;
+  width: 70px;
   margin: auto;
 }
 

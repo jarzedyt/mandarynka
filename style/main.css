@@ -5,8 +5,14 @@
   --basic-light: #dcdcdc;
   --extra-color: #fdd735;
   /*sizes*/
-  --main-width: 1192px;
+  --main-width: 954px;/*1192*/
 
+}
+
+@media (min-width: 1920px) {
+  :root {
+    --main-width: 1192px;
+  }
 }
 
 body {
@@ -17,6 +23,10 @@ body {
 * {
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul {
