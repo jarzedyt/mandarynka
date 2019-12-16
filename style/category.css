@@ -166,6 +166,10 @@
   position: relative;
 }
 
+.products--vertical__figure a {
+  height: 100%;
+}
+
 .products--vertical__img {
   height: 100%;
 }
@@ -209,6 +213,7 @@
 .products--vertical__title {
   font-weight: bold;
   font-size: 1.2em;
+  min-height: 3em;
 }
 
 .products--vertical__price {
