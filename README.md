@@ -1,9 +1,11 @@
 # mandarynka
 
-to do:
+W celu uruchomienia projektu należy otworzyć plik ```index.html```
+
+lista do zrobienia:
 
 * strona końca transakcji
-* slidery
+* slidery (strzałki w głównym sliderku + mniejsze sliderki)
 * panel logowania usera
 * panel logowania admina
 * podstrony kategorii
