@@ -1,6 +1,6 @@
 # mandarynka
 
-W celu uruchomienia projektu należy otworzyć plik ```index.html```
+W celu uruchomienia projektu należy otworzyć plik ```index.html``` w przeglądarce.
 
 lista do zrobienia:
 
