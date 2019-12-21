@@ -2,6 +2,10 @@
 
 W celu uruchomienia projektu należy otworzyć plik ```index.html``` w przeglądarce.
 
+
+
+
+
 lista do zrobienia:
 
 * strona końca transakcji
